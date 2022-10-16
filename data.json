@@ -1,0 +1,22 @@
+{
+    "Reading": {
+        "name": "Reading",
+        "desc": "I love reading since",
+        "message": "vghn",
+        "pic": "size.jpg"
+    },
+
+    "Anime": {
+        "name": "Anime",
+        "desc": "I love reading since",
+        "message": "vghn",
+        "pic": "book.jpg"
+    },
+
+    "Badminton": {
+        "name": "Badminton",
+        "desc": "I love reading since",
+        "message": "vghn",
+        "pic": "celeb.jpg"
+    }
+}
