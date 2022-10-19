@@ -1,22 +1,22 @@
-{
+{  
     "Reading": {
         "name": "Reading",
-        "desc": "I love reading since",
-        "message": "vghn",
-        "pic": "size.jpg"
+        "desc": "I like reading classic literature. Sure, sometimes classic books seem boring, but there are universal gems like 'Crime and Punishment'. An in-depth psychological study of a human soul by Fyodor Dostoevsky. A story about a person who tried to become great by committing a sin but could not bear the emotional torture that came with it.",
+        "type": "Books",
+        "pic": "crime.jpg"
     },
 
     "Anime": {
         "name": "Anime",
-        "desc": "I love reading since",
-        "message": "vghn",
-        "pic": "book.jpg"
+        "desc": "I like good stories. I find that lately Western media have been lacking them, so Anime is now my go-to source of inspiration. I am that Anime fan that would not watch all 500 episodes of Naruto and instead will go to wiki, read summary and watch only those episodes that seem interesting. My all-time favourite is 'The Basketball that Kuroko plays'.",
+        "type": "Movies",
+        "pic": "manga.jpg"
     },
 
     "Badminton": {
         "name": "Badminton",
-        "desc": "I love reading since",
-        "message": "vghn",
-        "pic": "celeb.jpg"
+        "desc": "I really like playing badminton. I am not a professional. But it was never windy in the city I grew up in, so badminton was a perfect thing to do. Join me, I would be happy to play with you!",
+        "type": "Sport",
+        "pic": "badminton.jpg"
     }
 }
