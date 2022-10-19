@@ -1,5 +1,4 @@
 function getData(targetURL, callback){
-    console.log(`it's aliive!`);
 
     fetch(targetURL)
     .then (res => res.json())

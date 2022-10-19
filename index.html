@@ -7,36 +7,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/tei3yio.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Find Out about My Favourite Things!</title>
 </head>
 <body>
+  <header>
+    <h2 class="welcome">Hi! I am Alex! Discover the things I like</h2>
+  </header>
+  <div class="site-container">
     <section class="btn-cards">
         <input type="radio" name="slider" class="d-none" id="s1" checked>
         <input type="radio" name="slider" class="d-none" id="s2">
         <input type="radio" name="slider" class="d-none" id="s3">
-
         
-
-        
-    </section>
-    <template id="card-template">
-            <section class="card">
-                <div class="picture">
-                    <img src="" alt="card image">
+        <div class="cards">
+            <label for="s1" id="slide1">
+                <div class="card" id="Reading">
+                  <img src="" alt="">
                 </div>
-            </section>
-    </template>
-    <section class="btns"></section>
-    <section class="info">
-        <div>
-            <h2 class="name"></h2>
-            <p class="desc"></p>
-            <h3 class="message"></h3>
+              </label>
+        
+              <label for="s2" id="slide2">
+                <div class="card" id="Badminton">
+                  <img src="" alt="">
+                </div>
+              </label>
+        
+              <label for="s3" id="slide3">
+                <div class="card" id="Anime">
+                  <img src="" alt="">
+                </div>
+              </label>
         </div>
     </section>
 
-   
+    <section class="info">
+        <div class="text">
+            <h2 class="name"></h2>
+            <h3 class="type"></h3>
+            <p class="desc"></p>
+        </div>
+    </section>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 
     <script src="js/main.js" type="module" defer></script>
 </body>
