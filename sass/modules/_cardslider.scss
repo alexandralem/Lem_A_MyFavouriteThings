@@ -1,0 +1,60 @@
+.btn-cards {
+    max-width: 600px;
+    height: 500px;
+    display: flex;
+    transform-style: preserve-3d;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    position: relative;
+    height: 500px;
+    width: 430px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.cards label {
+    position: absolute;
+    width: 250px;
+    height: 380px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.55s ease;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #191919;
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+    /*padding: 30px 35px;*/
+}
+
+#s1:checked~.cards #slide3,
+#s2:checked~.cards #slide1,
+#s3:checked~.cards #slide2 {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(-45%, 0, -120px);
+
+}
+
+#s1:checked~.cards #slide1,
+#s2:checked~.cards #slide2,
+#s3:checked~.cards #slide3 {
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 50%);
+    transform: translate3d(0, 0, 0);
+
+}
+
+#s1:checked~.cards #slide2,
+#s2:checked~.cards #slide3,
+#s3:checked~.cards #slide1 {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(45%, 0, -120px);
+
+}
